@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: url("https://cdnb.artstation.com/p/assets/images/images/039/732/367/original/jonathan-dodd-mockup.gif?1626780828");
+  background-size: 100%;
+  display: flex;
+  padding-top: 5rem;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.col-header {
+  width: 170px;
+ height: 50px;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  padding: 0.8rem 1rem;
+  color: #fff;
+}
+
+.item {
+  width: 150px;
+  height: 150px;
+  background: url("https://media0.giphy.com/media/tbPPrpCDlLM4ZPzxeb/giphy.gif?cid=6c09b952ra5cfsfnv6eszb0lh0hm09yzgngtaks6htvyi6e9&rid=giphy.gif&ct=s");
+  background-size: 100%;
+  cursor: grab;
+
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.placeholder {
+  width: 150px;
+  height: 200px;
+}
+
+.start {
+  background: linear-gradient(90deg, rgba(40, 40, 40, 0.87) 0%, #161617 179.25%);
+}
+
+.progress {
+  background: linear-gradient(90deg, rgba(40, 40, 40, 0.87) 0%, #161617 179.25%);
+}
+
+.done {
+  background: linear-gradient(90deg, rgba(40, 40, 40, 0.87) 0%, #161617 179.25%);
+}
+
+.hold {
+  border: 5px solid #95cad5;
+}
+
+.hide {
+  display: none;
+}
+
+.hovered {
+  border-top: 2px solid #7c7a7a;
+}
